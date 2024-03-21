@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+}
+
+.container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+#gameGrid {
+    display: grid;
+    gap: 1px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    background-color: #dcdcdc;
+}
+
+button.exposed {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #dcdcdc;
+}
+
+button.mine {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: red;
+}
+
+#difficulty{
+    height: 60px;
+    border: none;
+    width: 100%;
+    padding: 8px 16px;
+    margin-bottom: 1rem;
+}
+
+#start {
+    height: 60px;
+    border: none;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#switches {
+    width: 100%;
+}
